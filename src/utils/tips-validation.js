@@ -1,5 +1,6 @@
 
 import { isEmpty, keys } from 'lodash';
+import moment from 'moment';
 
 export const notEmpty = (message) => (value) => {
   if (isEmpty(value)) {
@@ -8,8 +9,16 @@ export const notEmpty = (message) => (value) => {
   return undefined;
 };
 
+export const isInFuture = (message = 'Date must be in future') => (value) => {
+  if (!moment(value).isAfter(moment())) {
+    return message;
+  }
+  return undefined;
+};
+
 const rules = {
   PackageID: [notEmpty('PackageId cannot be empty')],
+  Date: [isInFuture()],
 };
 
 export default (rows) => {

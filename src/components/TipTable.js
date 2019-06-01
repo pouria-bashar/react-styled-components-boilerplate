@@ -1,26 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import ReactDataGrid from "react-data-grid";
 import PropTypes from 'prop-types';
 import { isEmpty } from 'lodash';
 
-const rowUpdateHook = (initialState) => {
-  const [rows, setRows] = useState(initialState);
-  const onGridRowsUpdated = ({ fromRow, toRow, updated }) => {
-    setRows(_rows => {
-      const rows = _rows.slice();
-      for (let i = fromRow; i <= toRow; i++) {
-        rows[i] = { ...rows[i], ...updated };
-      }
-      return rows;
-    });
-  };
-
-  return {
-    updatedRows: rows,
-    onGridRowsUpdated,
-    setRows,
-  };
-};
 
 const RowRenderer = ({ renderBaseRow, ...props }) => {
   const color = "black";
@@ -48,6 +30,7 @@ const TipTable = ({
       }}
       rowRenderer={RowRenderer}
       rowHeight={50}
+      minHeight={rows.length * 50 + 50}
       enableCellSelect
     />
   );

@@ -29,15 +29,7 @@ module.exports = (env) => {
         },
         {
           test: /\.css$/,
-          loader: 'style-loader',
-        },
-        {
-          test: /\.css$/,
-          loader: 'css-loader',
-          query: {
-            modules: true,
-            localIdentName: '[name]__[local]___[hash:base64:5]',
-          },
+          use: ['style-loader', 'css-loader'],
         },
         {
           test: /\.(ttf|woff|woff2|eot|png|svg|gif)$/,

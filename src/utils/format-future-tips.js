@@ -19,6 +19,7 @@ export default (data) => {
     name: f,
     editable: fields[f].editable,
     formatter: fields[f].formatter,
+    editor: fields[f].editor,
     resizable: true,
     width: 120,
   }));

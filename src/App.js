@@ -4,6 +4,9 @@ import TipUpload from './views/TipUpload';
 import styled, { createGlobalStyle } from 'styled-components';
 import reset from 'styled-reset';
 import 'semantic-ui-css/semantic.min.css';
+import "react-datepicker/dist/react-datepicker.css";
+import "react-datetime/css/react-datetime.css";
+import './style.css';
 
 const GlobalStyle = createGlobalStyle`
   ${reset}
