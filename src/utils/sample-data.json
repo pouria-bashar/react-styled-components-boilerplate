@@ -1,0 +1,240 @@
+{
+    "packages": {
+        "tipPackages": [
+            {
+                "id": "sat_early_win-2019-05-30",
+                "PackageId": "sat_early_win",
+                "StartDate": "2019-05-30T02:55:00.000Z",
+                "EndDate": "2019-06-01T13:59:00.000Z",
+                "TotalStake": 29,
+                "NumberOfBets": 5
+            },
+            {
+                "id": "fri_odd_boost-2019-05-31",
+                "PackageId": "fri_odd_boost",
+                "StartDate": "2019-05-30T23:50:00.000Z",
+                "EndDate": "2019-05-31T23:59:00.000Z",
+                "TotalStake": 0,
+                "NumberOfBets": 1
+            }
+        ],
+        "tips": [
+            {
+                "id": "",
+                "TipPackageId": "sat_early_win-2019-05-30",
+                "PackageID": "sat_early_win",
+                "TipNumber": null,
+                "Date": "2019-06-01T01:40:00.000Z",
+                "Stake": 3,
+                "BetType": "WIN",
+                "Description": "It was $5.00 with bet365, TopSport, ClassicBet & Best Bookies and $4.80 with Neds, BetEasy, Ladbrokes, Unibet, BlueBet & TopBetta when first sent at 12:55pm. Promising two year old who raced against better company than this in Autumn and resumes here off a very nice trial, when not blinkered. The blinkers go on today and he will be very strong late.",
+                "MetaData": {
+                    "IsTop5": false,
+                    "IsBestBet": false
+                },
+                "IsModified": false,
+                "createdAt": "2019-05-30T02:25:16.225Z",
+                "updatedAt": "2019-05-30T02:25:16.225Z",
+                "Runners": [
+                    {
+                        "id": "20190601-caulfield-1-6",
+                        "Date": "2019-06-01T01:40:00.000Z",
+                        "Time": "2019-06-01T01:40:00.000Z",
+                        "Track": "caulfield",
+                        "RaceNumber": 1,
+                        "HorseNumber": 6,
+                        "HorseName": "Brazen Brando",
+                        "createdAt": "2019-05-30T02:25:16.542Z",
+                        "updatedAt": "2019-05-30T02:25:16.542Z",
+                        "RunnersTips": {
+                            "createdAt": "2019-05-30T02:25:16.645Z",
+                            "updatedAt": "2019-05-30T02:25:16.645Z",
+                            "RunnerId": "20190601-caulfield-1-6",
+                            "TipId": 526
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 527,
+                "TipPackageId": "sat_early_win-2019-05-30",
+                "PackageID": "sat_early_win",
+                "TipNumber": null,
+                "Date": "2019-06-01T02:50:00.000Z",
+                "Stake": 7,
+                "BetType": "WIN",
+                "Description": "It was $4.00 with bet365, Sportsbet, TopSport, BetEasy, Ladbrokes, ClassicBet, Best Bookies, Sports Betting, TAB & Ubet when first sent at 12:55pm. Relished the softer going at Sandown last start when leading all the way in very good time. Can control from the front again here.",
+                "MetaData": {
+                    "IsTop5": false,
+                    "IsBestBet": false
+                },
+                "IsModified": false,
+                "createdAt": "2019-05-30T02:25:16.383Z",
+                "updatedAt": "2019-05-30T02:25:16.383Z",
+                "Runners": [
+                    {
+                        "id": "20190601-caulfield-3-7",
+                        "Date": "2019-06-01T02:50:00.000Z",
+                        "Time": "2019-06-01T02:50:00.000Z",
+                        "Track": "caulfield",
+                        "RaceNumber": 3,
+                        "HorseNumber": 7,
+                        "HorseName": "Asgard Massif",
+                        "createdAt": "2019-05-30T02:25:16.545Z",
+                        "updatedAt": "2019-05-30T02:25:16.545Z",
+                        "RunnersTips": {
+                            "createdAt": "2019-05-30T02:25:16.705Z",
+                            "updatedAt": "2019-05-30T02:25:16.705Z",
+                            "RunnerId": "20190601-caulfield-3-7",
+                            "TipId": 527
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 528,
+                "TipPackageId": "sat_early_win-2019-05-30",
+                "PackageID": "sat_early_win",
+                "TipNumber": null,
+                "Date": "2019-06-01T04:05:00.000Z",
+                "Stake": 7,
+                "BetType": "WIN",
+                "Description": "It was $3.60 with bet365, Sportsbet, BetEasy & BlueBet and $3.50 with most of the other major bookies when first sent at 12:55pm. Up and coming sprinter who steamed down the middle of the track here last time out, when second up off a very long spell. Can only be further improved and loves the soft going.",
+                "MetaData": {
+                    "IsTop5": false,
+                    "IsBestBet": false
+                },
+                "IsModified": false,
+                "createdAt": "2019-05-30T02:25:16.864Z",
+                "updatedAt": "2019-05-30T02:25:16.864Z",
+                "Runners": [
+                    {
+                        "id": "20190601-caulfield-5-8",
+                        "Date": "2019-06-01T04:05:00.000Z",
+                        "Time": "2019-06-01T04:05:00.000Z",
+                        "Track": "caulfield",
+                        "RaceNumber": 5,
+                        "HorseNumber": 8,
+                        "HorseName": "William Thomas",
+                        "createdAt": "2019-05-30T02:25:17.001Z",
+                        "updatedAt": "2019-05-30T02:25:17.001Z",
+                        "RunnersTips": {
+                            "createdAt": "2019-05-30T02:25:17.543Z",
+                            "updatedAt": "2019-05-30T02:25:17.543Z",
+                            "RunnerId": "20190601-caulfield-5-8",
+                            "TipId": 528
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 529,
+                "TipPackageId": "sat_early_win-2019-05-30",
+                "PackageID": "sat_early_win",
+                "TipNumber": null,
+                "Date": "2019-06-01T02:20:00.000Z",
+                "Stake": 5,
+                "BetType": "WIN",
+                "Description": "It was $7.50 with bet365 and $6.50 with TopSport, Neds, BetEasy, Ladbrokes, BlueBet, ClassicBet, TopBetta & Best Bookies when first sent at 12:55pm. Chased home well behind the boom young sprinters Zoustyle and Plague Stone at this course last start and drawn to tag a good speed here again.",
+                "MetaData": {
+                    "IsTop5": false,
+                    "IsBestBet": false
+                },
+                "IsModified": false,
+                "createdAt": "2019-05-30T02:25:16.902Z",
+                "updatedAt": "2019-05-30T02:25:16.902Z",
+                "Runners": [
+                    {
+                        "id": "20190601-doomben-3-16",
+                        "Date": "2019-06-01T02:20:00.000Z",
+                        "Time": "2019-06-01T02:20:00.000Z",
+                        "Track": "doomben",
+                        "RaceNumber": 3,
+                        "HorseNumber": 16,
+                        "HorseName": "Jami Lady",
+                        "createdAt": "2019-05-30T02:25:17.003Z",
+                        "updatedAt": "2019-05-30T02:25:17.003Z",
+                        "RunnersTips": {
+                            "createdAt": "2019-05-30T02:25:17.622Z",
+                            "updatedAt": "2019-05-30T02:25:17.622Z",
+                            "RunnerId": "20190601-doomben-3-16",
+                            "TipId": 529
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 530,
+                "TipPackageId": "sat_early_win-2019-05-30",
+                "PackageID": "sat_early_win",
+                "TipNumber": null,
+                "Date": "2019-06-01T02:55:00.000Z",
+                "Stake": 7,
+                "BetType": "WIN",
+                "Description": "It was $4.40 with TopSport, Neds, ClassicBet & Best Bookies and $4.20 with bet365, Sportsbet, BetEasy, Ladbrokes, Unibet, BlueBet and TopBetta when first sent at 12:55pm. Quality mare who races best when her runs are spaced. Little speed here should see her get up outside the lead and be terribly tough to get past.",
+                "MetaData": {
+                    "IsTop5": false,
+                    "IsBestBet": false
+                },
+                "IsModified": false,
+                "createdAt": "2019-05-30T02:25:17.762Z",
+                "updatedAt": "2019-05-30T02:25:17.762Z",
+                "Runners": [
+                    {
+                        "id": "20190601-doomben-4-6",
+                        "Date": "2019-06-01T02:55:00.000Z",
+                        "Time": "2019-06-01T02:55:00.000Z",
+                        "Track": "doomben",
+                        "RaceNumber": 4,
+                        "HorseNumber": 6,
+                        "HorseName": "Winter Bride",
+                        "createdAt": "2019-05-30T02:25:17.842Z",
+                        "updatedAt": "2019-05-30T02:25:17.842Z",
+                        "RunnersTips": {
+                            "createdAt": "2019-05-30T02:25:17.901Z",
+                            "updatedAt": "2019-05-30T02:25:17.901Z",
+                            "RunnerId": "20190601-doomben-4-6",
+                            "TipId": 530
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 532,
+                "TipPackageId": "fri_odd_boost-2019-05-31",
+                "PackageID": "fri_odd_boost",
+                "TipNumber": 1,
+                "Date": "2019-06-01T01:10:00.000Z",
+                "Stake": 7,
+                "BetType": "WIN",
+                "Description": "It was $6.00 with Sportsbet and $5.50 with nearly all other bookies when first sent at 9:50am. I don't recommend taking below $4.60 today. Should improve with 7 day backup and looks value to beat stable mate.",
+                "MetaData": {
+                    "IsTop5": false,
+                    "IsBestBet": false
+                },
+                "IsModified": false,
+                "createdAt": "2019-05-30T23:29:51.514Z",
+                "updatedAt": "2019-05-30T23:29:51.514Z",
+                "Runners": [
+                    {
+                        "id": "20190601-doomben-1-1",
+                        "Date": "2019-06-01T01:10:00.000Z",
+                        "Time": "2019-06-01T01:10:00.000Z",
+                        "Track": "doomben",
+                        "RaceNumber": 1,
+                        "HorseNumber": 1,
+                        "HorseName": "Creator",
+                        "createdAt": "2019-05-30T23:29:51.731Z",
+                        "updatedAt": "2019-05-30T23:29:51.731Z",
+                        "RunnersTips": {
+                            "createdAt": "2019-05-30T23:29:51.831Z",
+                            "updatedAt": "2019-05-30T23:29:51.831Z",
+                            "RunnerId": "20190601-doomben-1-1",
+                            "TipId": 532
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

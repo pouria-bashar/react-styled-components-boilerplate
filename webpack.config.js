@@ -29,13 +29,30 @@ module.exports = (env) => {
         },
         {
           test: /\.css$/,
-          loader: 'style-loader!css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]&camelCase!postcss-loader',
+          loader: 'style-loader',
+        },
+        {
+          test: /\.css$/,
+          loader: 'css-loader',
+          query: {
+            modules: true,
+            localIdentName: '[name]__[local]___[hash:base64:5]',
+          },
+        },
+        {
+          test: /\.(ttf|woff|woff2|eot|png|svg|gif)$/,
+          use: {
+          loader: 'url-loader',
+          options: {
+                limit: 10000,
+            },
+          },
         },
       ],
     },
     resolve: {
       alias: {
-        '@components': path.resolve(__dirname, 'src/components/')
+        '@components': path.resolve(__dirname, 'src/components/'),
       },
     },
     plugins: [
